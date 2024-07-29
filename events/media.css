@@ -1,0 +1,1522 @@
+@media only screen and (min-width: 350px) and (max-width: 401px) {
+  .section {
+    padding: 20px 10px;
+  }
+
+  /* navbar */
+  section.navigation {
+    display: none;
+  }
+
+  section.navigation-mobile{
+    display: block;
+  }
+
+  .navbar-brand img {
+    width: 75px;
+  }
+
+  .navbar.navbar-expand-lg {
+    padding: 3px 0;
+  }
+
+  /* end */
+
+  /* banner */
+  section.banner {
+    overflow-x: hidden;
+  }
+
+  section.banner .banner-img img {
+    width: 100%;
+    height: 261px;
+    object-fit: cover;
+  }
+
+  /* end */
+
+  /* about */
+  #about-mb {
+    display: block;
+  }
+
+  #target-section {
+    display: none;
+  }
+
+  section.about-us {
+    padding: 30px 10px 10px;
+  }
+
+  section.about-us .ab-img img {
+    top: -30px;
+    right: 0;
+    width: 200px;
+  }
+
+  section.about-us .abt-img img {
+    height: 100%;
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+
+  section.about-us .abt-info {
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  section.about-us .abt-info h2 {
+    font-size: 1.6rem;
+  }
+
+  section.about-us .abt-info p {
+    margin-top: .5rem;
+    font-size: 17px;
+  }
+
+  section.about-us .tg {
+    font-size: 25px;
+  }
+
+  /* end */
+  /* services */
+  .section.services {
+    display: none;
+  }
+
+  #services-mb {
+    display: block;
+    padding: 40px 0 0;
+  }
+
+  .section-title {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .section-title span {
+    font-size: 5rem;
+    left: 18.3%;
+    top: -31px;
+  }
+
+  section.services .service-box {
+    padding: 1rem;
+  }
+
+  section.services .service-box img {
+    height: auto;
+  }
+
+  section.services .hr-line img {
+    height: 60px !important;
+    bottom: -25px;
+    left: 40px;
+  }
+
+  section.services .service-info {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  section.services .carousel-control-next,
+  section.services .carousel-control-prev {
+    top: 34rem;
+  }
+
+  section.services .carousel-control-prev {
+    width: 15% !important;
+    left: 15rem;
+  }
+
+  section.services .carousel-control-next {
+    width: 15% !important;
+  }
+
+  section.services .service-info h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  section.services .service-info p {
+    font-size: 1.5rem;
+  }
+
+  /* end */
+
+  /* latest events */
+  section.latest-events .section-title span {
+    left: 2.5%;
+  }
+
+  section.latest-events .card-img-top {
+    height: 300px;
+  }
+
+  section.latest-events #v-pills-tab {
+    background: #f8f8f8;
+    padding: 1rem;
+    position: relative;
+    left: 0;
+  }
+
+  section.latest-events .nav-link {
+    text-align: left;
+    color: #1E1E1E;
+    font-size: 1.2rem;
+    font-family: 'Neutraface Text Light';
+    padding: 1rem;
+  }
+
+  /* end */
+
+  /* latest events */
+  section.features {
+    position: relative;
+    padding: 40px 0px;
+    background: url('assets/img/features-bg.png')no-repeat center;
+    background-size: auto;
+    background-size: auto;
+    background-size: cover;
+    height: 40vh;
+    margin: 0 0rem;
+  }
+
+  section.features .feature-box.left {
+    left: 0;
+  }
+
+  section.features .feature-box {
+    color: white;
+    position: relative;
+    top: 0rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+  }
+
+  section.features .feature-box ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  section.features .feature-box li {
+    margin: 0.6rem 0;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-family: 'Neutraface Text Light';
+  }
+
+  section.features .feature-box ul li::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    left: 45px;
+    bottom: -6px;
+  }
+
+  section.features .feature-box.right {
+    right: 0;
+    text-align: center;
+  }
+
+  /* end */
+
+  /* testimonials */
+  section.testimonials .testi-info h2 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  section.testimonials .quote img {
+    left: 0;
+    top: 60px;
+    width: 50px;
+  }
+
+  section.testimonials .carousel-inner {
+    width: 100%;
+  }
+
+  section.testimonials .testi-inner {
+    display: block;
+    text-align: center;
+  }
+
+  section.testimonials .testi-inner img {
+    margin-right: 0;
+    width: 80px;
+  }
+
+  section.testimonials .testi-inner p {
+    font-size: 16px;
+    line-height: 1.6rem;
+  }
+
+  section.testimonials .carousel-control-next,
+  section.testimonials .carousel-control-prev {
+    top: 23.5rem;
+  }
+
+  section.testimonials .carousel-control-next {
+    right: 100px;
+    width: 10%;
+  }
+
+  section.testimonials .carousel-control-prev {
+    left: 100px;
+    width: 10%;
+  }
+
+  section.testimonials .testi-logo::before {
+    width: 40%;
+    height: 1px;
+  }
+
+  section.testimonials .testi-logo::after {
+    width: 40%;
+    height: 1px;
+  }
+
+  /* end */
+
+  /* gtp */
+  h2.gtp {
+    margin: 2rem 0 0rem;
+  }
+
+  /* cta */
+  section.cta {
+    padding: 10px 10px;
+    height: auto;
+    margin: 1rem;
+  }
+
+  section.cta .container {
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+
+  .section-title.cta span {
+    left: 10.3%;
+    top: -30px;
+  }
+
+  .form-control {
+    padding: .5rem .75rem 0.6rem;
+    border-bottom: 1px solid white !important;
+  }
+
+  section.cta .submit button.btn.btn-primary {
+    width: 60%;
+    padding: 0.5rem;
+  }
+
+  /* end */
+
+  /* footer */
+  footer.section h3 {
+    color: #b9a56c;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 0rem;
+  }
+
+  footer.section .col-md-2::before {
+    position: absolute;
+    content: '';
+    top: 49%;
+    left: 20px;
+    width: 100px;
+    height: 1px;
+    background: #555555;
+  }
+
+  footer.section .col-md-2 img {
+    width: 50px;
+    margin: 1rem 0;
+  }
+
+  footer.section .col-md-2::after {
+    position: absolute;
+    content: '';
+    top: 49%;
+    right: 21px;
+    width: 100px;
+    height: 1px;
+    background: #555555;
+  }
+
+  footer.section .social-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  footer.section .social-info img {
+    margin: 0 .5rem;
+  }
+
+  footer.section .social-info::before {
+    top: 13px;
+    width: 32%;
+    height: 1px;
+  }
+
+  footer.section .social-info::after {
+    top: 13px;
+    width: 32%;
+    height: 1px;
+  }
+
+  footer.section .ftr-info {
+    margin-top: 2rem;
+  }
+
+  footer.section .ftr-info ul {
+    padding-left: 0;
+  }
+
+  footer.section .ftr-info li {
+    margin: 0px 6px;
+    font-size: 14px;
+  }
+
+  footer.section .ftr-info p {
+    margin-top: 2rem;
+
+  }
+  /* end home page */
+
+  /* about us page */
+  section.banner.abt .banner-text {
+    top: 45%;
+    left: 22%;
+  }
+
+  section.banner.abt .banner-text h1 {
+    font-size: 2.5rem;
+  }
+
+  section.section.about-us-pg .section-title span {
+    left: 7.8%;
+    top: -29px;
+  }
+
+  section.countdown .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  section.countdown .ctt {
+    font-size: 35px;
+  }
+
+  section.countdown p.cup {
+    font-size: 18px;
+    margin-top: 0rem;
+  }
+
+  .section.faq {
+    padding-bottom: 0;
+  }
+
+  div#accordionExample {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  button.accordion-button {
+    border-radius: 8px !important;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    padding: 1.2rem;
+  }
+
+  .accordion-body {
+    font-size: 15px;
+    font-family: 'Neutraface Text Light', sans-serif;
+    padding: 0px 18px 12px;
+  }
+  /* end about us page */
+
+  /* contact us page  */
+  .section.contact-us-pg {
+    padding: 20px 10px;
+  }
+
+  .section.contact-us-pg .container-fluid {
+    padding-right: 10px;
+  }
+
+  .cta-pg-info {
+    padding: 1rem;
+    margin: 0 0rem 1rem;
+  }
+
+  .section.contact-us-pg .section-title span {
+    left: 1%;
+  }
+
+  .cta-pg-info h3 {
+    margin: .5rem 0 1rem;
+  }
+
+  .cta-pg-info p {
+    font-size: 16px;
+    padding: 0 0rem;
+  }
+
+  .section.contact-us-pg .col-md-7 {
+    margin-bottom: 2rem;
+  }
+  /* end contact page */
+
+  /* wedding page start */
+  section.banner.wedd .banner-text {
+    top: 37%;
+    left: 11%;
+  }
+
+  section.banner.wedd .banner-text h1 {
+    font-size: 1.6rem;
+  }
+
+  section.banner.wedd .banner-text p {
+    font-size: 11px;
+  }
+
+  section.services-infor h2 {
+    font-size: 1.8rem;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 2.9rem;
+    text-align: center;
+  }
+
+  section.services-infor .col-md-6.left h2, section.services-infor .col-md-6.left p {
+    margin-left: 0rem;
+  }
+
+  /* wedding mb */
+  .section.consultation-event, section.section.catering-planning, section.section.photo-video{
+    display: none;
+  }
+  .section.wedding-info-mb{
+    display: block;
+  }
+
+  .section.wedding-info-mb .service-cont {
+    background: #ffe5cf;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  section.section.gallery #pills-tab {
+    margin-bottom: 1rem !important;
+  }
+
+  section.section.gallery .gl-img img {
+    height: 380px;
+  }
+
+  section.section.gallery .nav-pills .nav-link {
+    font-size: 13px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .section {
+    padding: 20px 10px;
+  }
+  
+  .section-title span {
+    font-size: 6rem;
+    left: 34.3%;
+    top: -38px;
+  }
+
+  .section-title {
+    font-size: 2rem;margin-bottom: 3rem;
+  }
+
+  /* navbar */
+  section.navigation {
+    display: none;
+  }
+
+  section.navigation-mobile{
+    display: block;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+  }
+  /* end */
+
+  /* banner */
+  section.banner .banner-img img {
+    height: 481px;
+    object-fit: cover;
+  }
+  /* end */
+
+  /* about us */
+  section.about-us {
+    padding: 50px 20px 30px;
+  }
+
+  section.about-us .abt-info {
+    padding: 0px 0.5rem;
+    margin-top: 0rem;
+  }
+
+  section.about-us .ab-img img {
+    right: -20px;
+}
+
+  section.about-us .abt-img img {
+    height: 530px;
+    object-fit: cover;
+  }
+
+  section.about-us .abt-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+
+  section.about-us .tg {
+    font-size: 20px;
+  }
+
+  section.about-us .abt-info p {
+    margin-top: 2px;
+    font-size: 13px;
+    letter-spacing: .5px;
+    line-height: 1.5rem;
+  }
+
+  section.services .grid-container {
+    gap: 1rem;
+  }
+  
+  section.services .service-box img {
+    width: 100%;
+    height: 290px;
+  }
+
+  section.services .hr-line img {
+    width: 1.5px !important;
+    height: 70px !important;
+    position: absolute;
+    bottom: -30px;
+    left: 60px;
+  }
+
+  section.services .service-info {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  section.services .service-info h3 {
+    font-size: 2rem;
+  }
+
+  section.services .service-info p {
+    font-size: 1.2rem;
+  }
+
+  section.services .carousel-control-prev {
+    left: 40rem;
+    top: 27.3rem !important;
+  }
+  /* end services */
+
+  /* latest events */
+  section.latest-events .section-title span {
+    left: 25.5%;
+  }
+
+  section.latest-events .section-title {
+    margin-bottom: 3rem;
+  } 
+  
+  section.latest-events #v-pills-tab {
+    left: 72px;
+  }
+
+  section.services .carousel-control-next, section.services .carousel-control-prev {
+    top: 28rem;
+  }
+
+  section.latest-events .nav-link {
+    padding: .5rem 1rem;
+  }
+
+  section.latest-events .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  /* end */
+
+  /* features */
+  section.features {
+    height: 70vh;
+    margin: 0 1rem;
+  }
+
+  section.features .feature-box.right {
+    right: 40px;
+    text-align: right;
+  }
+  section.features .feature-box {
+    color: white;
+    position: absolute;
+    top: 8rem;
+  }
+
+  section.features .feature-box.left {
+    left: 10px;
+  }
+  /* end */
+
+  /* testimonials */
+  section.testimonials .testi-info h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+
+  section.testimonials .quote img {
+    left: 190px;
+    top: -20px;
+    width: 40px;
+  }
+
+  section.testimonials .carousel-inner {
+    width: 100%;
+  }
+
+  section.testimonials .testi-inner img {
+    margin-right: 10px;
+  }
+
+  section.testimonials .testi-inner p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  section.testimonials .carousel-control-prev {
+    left: 37%;
+    top: 14rem;
+  }
+
+  section.testimonials .se-icon.prev-icon {
+    width: 30px;
+  }
+
+  section.testimonials .carousel-control-next {
+    right: 37%;
+    top: 14rem;
+  }
+
+  section.testimonials .se-icon.next-icon {
+    width: 30px;
+  }
+
+  section.testimonials .testi-logo::before {
+    width: 44.5%;
+  }
+
+  section.testimonials .testi-logo::after {
+    width: 44.5%;
+  }
+  /* end testimonials */
+
+  /* cta start */
+  .section-title.cta span {
+    left: 26.3%;
+    top: -35px;
+  }
+
+  section.cta {
+    margin: 1rem;
+  }
+
+  section.cta .container {
+    width: 80%;
+  }
+  /* end cta */
+
+  /* footer */
+  footer.section .col-md-2::before, footer.section .col-md-2::after {
+    height: 70px;
+  }
+
+  footer.section .col-md-2 img {
+    width: 60px;
+  }
+
+  footer.section h3 {
+    font-size: 14px;
+    padding: 0 0rem;
+  }
+
+  footer.section .social-info::after, footer.section .social-info::before {
+    width: 42%;
+  }
+
+  footer.section .ftr-info ul {
+    padding-left: 0;
+  }
+
+  footer.section .ftr-info li {
+    margin: 0 1.8rem;
+  }
+  /* end home page */
+
+  /* about us page */
+  section.banner.abt .banner-text {
+    top: 37%;
+    left: 35%;
+  }
+
+  section.banner.abt .banner-text h1 {
+    font-size: 4rem;
+  }
+
+  section.countdown .ctt {
+    font-size: 50px;
+  }
+
+  section.countdown p.cup {
+    font-size: 16px;
+    margin-top: -0.5rem;
+  }
+  /* end about us page */
+
+  /* contact us page */
+  .section.contact-us-pg {
+    padding: 30px 0 30px 10px;
+  }
+
+  .section.contact-us-pg .container-fluid {
+    padding-right: 10px;
+  }
+
+  .section.contact-us-pg .section-title span {
+    left: 11.3%;
+  }
+  .section-title.cta {
+    margin-top: 1rem;
+  }
+
+  .cta-pg-info {
+    padding: 1rem;
+    margin: 0px 0rem 1rem;
+  }
+
+  .cta-pg-info h3 {
+    margin: .5rem 0 0.5rem;
+  }
+
+  .cta-pg-info p {
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  /* end contact page */
+
+  /* wedding page */
+  section.banner {
+    position: relative;
+    overflow-x: hidden;
+}
+
+  section.banner.wedd .banner-text {
+    top: 38%;
+    left: 27%;
+}
+
+section.banner.wedd .banner-text h1 {
+  font-size: 2rem;
+}
+
+.section.services-infor p {
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+section.services-infor h2 {
+  font-size: 1.8rem;
+  width: 100%;
+  margin-bottom: .5rem;
+  line-height: 2.5rem;
+}
+
+section.services-infor .col-md-6.left h2, section.services-infor .col-md-6.left p {
+  margin-left: 0rem;
+}
+
+.section.consultation-event, section.section.catering-planning, section.section.photo-video {
+  display: none;
+}
+
+.section.wedding-info-mb {
+  display: block;
+}
+
+section .service-cont h3 {
+  font-size: 1.5rem;
+}
+
+section .service-cont p {
+  font-size: 17px;
+  line-height: 1.6rem;
+}
+
+section.wedding-info-mb .service-img img {
+  margin-bottom: 1rem;
+}
+/* end wedding */
+
+/* gallery page */
+section.section.gallery .gl-img img {
+  height: 250px;
+}
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .section {
+    padding: 40px 30px;
+}
+
+.section-title {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.section-title span {
+  font-size: 7rem;
+  left: 38.3%;
+  top: -48px;
+}
+
+
+/* navbar */
+  section.navigation .nav-item {
+    margin: 0 1.5rem;
+}
+
+section.navigation .nav-link {
+  font-size: 18px;
+  color: #555;
+}
+
+section.navigation .col-md-2 .logo::before {
+  top: 0px;
+  height: 70px;
+}
+
+section.navigation .col-md-2 .logo::after {
+   top: 0px;
+  height: 70px;
+}
+
+section.banner {
+  overflow-x: hidden;
+}
+
+section.banner .banner-img img {
+  width: 100%;
+  height: 541px;
+}
+
+section.about-us {
+  padding: 50px 40px 60px;
+}
+
+section.about-us .abt-info {
+  padding: 0 1rem;
+  margin-top: 0rem;
+}
+
+section.about-us .abt-info h2 {
+  font-size: 2rem;
+}
+
+section.about-us .tg {
+  font-size: 26px;
+}
+
+section.about-us .abt-info p {
+  margin-top: 0.5rem;
+  font-size: 16px;
+  line-height: 1.6rem;
+}
+
+section.about-us .abt-img img {
+  height: 590px;
+}
+
+
+section.services .grid-container {
+  gap: 1rem;
+}
+
+section.services .service-box img {
+  height: 400px;
+}
+
+section.services .carousel-control-next, section.services .carousel-control-prev {
+  top: 37rem;
+}
+
+section.services .carousel-control-prev {
+  left: 52rem;
+}
+
+section.latest-events #v-pills-tab {
+  left: 160px;
+}
+
+section.features {
+ margin: 0 2rem;
+}
+
+section.testimonials .carousel-inner {
+  width: 80%;
+}
+
+section.testimonials .testi-info h2 {
+  margin-left: 2rem;
+}
+
+section.testimonials .testi-inner img {
+  margin-right: 20px;
+  width: 100px;
+}
+
+section.testimonials .testi-inner p {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+section.testimonials .quote img {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  width: 50px;
+}
+
+.section-title.cta span {
+  left: 30.3%;
+  top: -44px;
+}
+
+section.cta .container {
+  width: 70%;
+}
+
+section.testimonials .se-icon.next-icon img, section.testimonials .se-icon.prev-icon img {
+  width: 30px !important;
+}
+
+footer.section .social-info::after, footer.section .social-info::before {
+  width: 43%;
+}
+
+footer.section .ftr-info ul {
+  padding-left: 0;
+}
+
+footer.section .ftr-info p {
+  margin-top: 2rem;
+}
+/* end home page */
+
+/* about us page */
+section.banner.abt .banner-text {
+  left: 33%;
+}
+
+section.section.about-us-pg .section-title span {
+  top: -56px;
+}
+/* end about us page */
+
+/* contact page start */
+.section.contact-us-pg {
+  padding-right: 20px;
+}
+
+.section.contact-us-pg .container-fluid {
+  padding-right: 10px;
+}
+/* end contact */
+
+/* wedding page */
+section.banner.wedd .banner-text {
+  left: 31%;
+}
+
+section.banner.wedd .banner-text h1 {
+  font-size: 3rem;
+}
+
+section.services-infor h2 {
+  font-size: 2rem;
+  line-height: 3.3rem;
+}
+
+.section.services-infor p {
+  font-size: 17px;
+  line-height: 1.8rem;
+}
+
+section.section.consultation-event .row.box1 .service-cont {
+
+  top: 10%;
+  width: 60%;
+  padding: 1rem;
+}
+
+section.section.consultation-event .row.box-2 .service-cont {
+  left: 2%;
+  top: 90px;
+  width: 60%;
+  padding: 1rem;
+}
+
+section.section.consultation-event .row.box-2 .service-img img {
+  top: 20px;
+}
+
+section.section.catering-planning .row.box-3 .service-cont {
+  width: 55%;
+  padding: 1rem;
+}
+
+section.section.catering-planning .row.box-4 .service-cont {
+  left: 2%;
+  top: 90px;
+  width: 60%;
+  padding: 1rem;
+}
+
+section.section.catering-planning .row.box-4 .service-img img {
+  top: 10px;
+}
+
+section.section.photo-video .row.box-5 .service-cont {
+  width: 60%;
+  padding: 1rem;
+}
+/* encd wedding page */
+/* gallery page */
+section.section.gallery .gl-img img {
+  height: 400px;
+}
+/* end */
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .section-title {
+    font-size: 2.2rem;
+}
+
+.section-title span {
+  font-size: 6rem;
+  top: -46px;
+}
+/* end */
+
+section.banner {
+  overflow-x: hidden;
+}
+
+  section.navigation .nav-item {
+    margin: 0 2rem;
+}
+
+  section.navigation .col-md-2 .logo::before {
+    top: 5px;
+    height: 80px;
+}
+
+  section.navigation .col-md-2 .logo::after {
+    top: 5px;
+    height: 80px;
+}
+
+section.banner .banner-img img {
+  width: 100%;
+  height: 530px;
+}
+
+section.about-us {
+  padding: 40px 20px 20px;
+}
+
+section.about-us .abt-info {
+  padding: 0 1rem;
+  margin-top: 0rem;
+}
+
+section.about-us .ab-img img {
+  top: -130px;
+  right: -20px;
+  width: 280px;
+}
+
+section.services .grid-container {
+  gap: 2rem;
+}
+
+section.services .carousel-control-prev {
+  left: 63rem;
+}
+
+section.features .feature-box.left {
+  left: 10px;
+}
+
+section.features .feature-box {
+  top: 12rem;
+}
+
+section.features .feature-box li {
+  font-size: 1rem;
+}
+
+section.features .feature-box.right {
+  right: 40px;
+}
+
+section.testimonials .carousel-inner {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+section.testimonials .se-icon.prev-icon img {
+  width: 30px;
+}
+
+section.testimonials .se-icon.next-icon img {
+  width: 30px;
+}
+
+section.testimonials .quote img {
+  left: 320px;
+  top: 0px;
+  width: 50px;
+}
+
+section.testimonials .testi-info h2 {
+  margin-left: 6rem;
+}
+
+.section-title.cta span {
+  top: -46px;
+}
+
+section.cta .container {
+  width: 60%;
+}
+
+h2.gtp {
+  margin-bottom: 1rem;
+}
+/* end home page */
+
+/* about us page */
+section.banner.abt .banner-text {
+  top: 37%;
+  left: 38%;
+}
+
+section.banner.abt .banner-text h1 {
+  font-size: 5rem;
+}
+
+section.section.about-us-pg .section-title span {
+  left: 32.8%;
+  top: -46px;
+}
+
+section.section.countdown {
+  padding-top: 0;
+}
+
+.section-title.cta span {
+  top: -36px;
+}
+/* end about us page */
+
+/* contact page */
+.section.contact-us-pg {
+  padding-right: 20px;
+}
+
+.section.contact-us-pg .container-fluid {
+  padding-right: 10px;
+}
+/* contact page end */
+
+/* wedding page */
+section.banner.wedd .banner-text {
+  left: 33.5%;
+}
+
+section.services-infor .col-md-6.left h2, section.services-infor .col-md-6.left p {
+  margin-left: 1rem;
+}
+
+section.services-infor h2 {
+  font-size: 2.2rem;
+  width: 100%;
+  line-height: 3.5rem;
+}
+
+.section.services-infor p {
+  font-size: 18px;
+  line-height: 1.8rem;
+}
+
+section.banner.wedd .banner-text h1 {
+  font-size: 3rem;
+}
+
+section.section.consultation-event .row.box1 .service-cont {
+  top: 12%;
+  width: 55%;
+  padding: 2rem;
+}
+
+section.section.consultation-event .row.box-2 .service-cont {
+  top: 100px;
+  width: 50%;
+  padding: 2rem;
+}
+
+section.section.catering-planning .row.box-3 .service-cont {
+  top: 20%;
+  width: 50%;
+}
+
+section.section.consultation-event .row.box-2 .service-img img {
+  top: -20px;
+}
+
+section.section.catering-planning .row.box-4 .service-img img {
+  top: 0px;
+}
+
+section.section.photo-video .row.box-5 .service-cont {
+
+  top: 20%;
+  width: 55%;
+  padding: 2rem;
+}
+/* end */
+}
+
+@media only screen and (min-width: 1365px) and (max-width: 1400px) {
+  .section-title {
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+}
+
+.section-title span {
+  font-size: 7rem;
+  left: 38%;
+  top: -48px;
+}
+
+  section.navigation .nav-item {
+    margin: 0 2rem;
+}
+
+section.navigation .col-md-2 .logo::before {
+  height: 80px;
+}
+
+section.navigation .col-md-2 .logo::after {
+  height: 80px;
+}
+
+section.banner {
+  overflow-x: hidden;
+}
+
+section.banner .banner-img img {
+  height: 530px;
+}
+
+section.about-us {
+  padding: 60px 40px 40px;
+}
+
+section.about-us .abt-info {
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+
+section.about-us .abt-info p {
+  margin-top: .5rem;
+}
+
+section.about-us .abt-img img {
+  height: 680px;
+}
+
+section.services .carousel-control-prev {
+  left: 64rem;
+}
+
+section.latest-events #v-pills-tab {
+  left: 302px;
+}
+
+section.features .feature-box {
+  top: 12rem;
+}
+
+section.testimonials .testi-info h2 {
+  margin-left: 6rem;
+}
+
+section.testimonials .se-icon.prev-icon img {
+  width: 35px;
+}
+
+section.testimonials .carousel-inner {
+  width: 80%;
+}
+
+section.testimonials .se-icon.next-icon img {
+  width: 35px;
+}
+
+section.testimonials .quote img {
+  left: 330px;
+  top: -10px;
+  width: 70px;
+}
+
+.section-title.cta span {
+  top: -46px;
+}
+
+section.cta .container {
+  width: 50%;
+}
+
+h2.gtp {
+  margin-bottom: 2rem;
+}
+/* end home page */
+
+/* about us page */
+section.banner.abt .banner-text h1 {
+  font-size: 5rem;
+}
+
+section.section.about-us-pg .section-title span {
+  top: -46px;
+}
+
+section.section.countdown {
+  padding-top: 0px;
+}
+
+h2.section-title.faq span {
+  left: 25%;
+}
+
+/* about us end */
+
+/* contact page  */
+.section.contact-us-pg {
+  padding-right: 20px;
+}
+
+.section.contact-us-pg .container-fluid {
+  padding-right: 10px;
+}
+
+.section.contact-us-pg .section-title span {
+  left: 24.3%;
+}
+
+.cta-pg-info h3 {
+  margin: .5rem 0 1rem;
+}
+/* end contact page */
+
+/* wedding page */
+section.section.services-infor {
+  padding-bottom: 0;
+}
+
+section.banner.wedd .banner-text {
+  left: 36%;
+}
+
+section.banner.wedd .banner-text h1 {
+  font-size: 3rem;
+}
+
+section.services-infor .col-md-6.left h2, section.services-infor .col-md-6.left p {
+  margin-left: 1rem;
+}
+
+section.services-infor h2 {
+  width: 100%;
+  line-height: 3.5rem;
+}
+
+section.section.consultation-event .row.box-2 .service-img img {
+  top: -20px;
+}
+
+section.section.catering-planning .row.box-4 .service-img img {
+  top: -20px;
+}
+}

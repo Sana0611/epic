@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- end -->
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- end -->
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+  <!-- end -->
+
+  <!-- animations -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <section class="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Wedding Events</a></li>
+                    <li><a class="dropdown-item" href="#">Birthday Parties</a></li>
+                    <li><a class="dropdown-item" href="#">Anniversary Parties</a></li>
+                    <li><a class="dropdown-item" href="#">Corporate Events</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+        </div>
+        <div class="col-md-2">
+          <div class="logo">
+            <img src="/assets/img/logo.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-5">
+          <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- navbar mobile -->
+  <section class="navigation-mobile" >
+    <!-- <nav class="navbar navbar-expand-lg custom-navbar" style="background-color: rgba(255, 255, 255, 0.5); backdrop-filter: blur(10px); opacity: 1; visibility: visible;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Wedding Events</a></li>
+                <li><a class="dropdown-item" href="#">Birthday Parties</a></li>
+                <li><a class="dropdown-item" href="#">Anniversary Parties</a></li>
+                <li><a class="dropdown-item" href="#">Corporate Events</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="resp"  style="background-color: rgb(255 255 255 / 50%); backdrop-filter: blur(10px);" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Wedding Events</a></li>
+                <li><a class="dropdown-item" href="#">Birthday Parties</a></li>
+                <li><a class="dropdown-item" href="#">Anniversary Parties</a></li>
+                <li><a class="dropdown-item" href="#">Corporate Events</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- banner -->
+  <section class="banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="banner-img" data-aos="zoom-out-up" data-aos-duration="3000">
+            <img src="assets/img/slider.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <a href="#target-section" class="bottom-center">
+        <img src="assets/img/arrow.png" alt="Arrow" class="arrow-img">
+      </a>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- About -->
+  <section class="section about-us" id="target-section">
+    <div class="ab-img" data-aos="zoom-out" data-aos-duration="3000">
+      <img src="assets/img/abt.png" alt="" class="img-fluid">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5" data-aos="fade-right" data-aos-duration="2000">
+          <div class="abt-img">
+            <img src="assets/img/abt-1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-7" data-aos="fade-left" data-aos-duration="2000">
+          <div class="abt-info">
+            <h2><span style="color: #ad9551;">W</span>e specialize in offering wedding service</h2>
+            <span class="tg">Elevated wedding experiences</span>
+            <p>At Epic Events, we specialize in offering wedding services that go above and
+              beyond to make your special day truly unforgettable. From stunning decor to
+              personalized touches, we ensure every detail is taken care of so you can focus on
+              enjoying the moment. Our team of experts will work closely with you to bring
+              your dream wedding to life, creating a magical experience that reflects your
+              unique love story. Let us handle the details while you cherish every moment of
+              your special day. At Epic Events, we specialize in offering wedding services that
+              go above and beyond to make your special day truly unforgettable. From stunning
+              decor to personalized touches, we ensure every detail is taken care of so you can
+              focus on enjoying the moment. Our team of experts will work closely with you to
+              bring your dream wedding to life, creating a magical experience that reflects your
+              unique love story. Let us handle the details while you cherish every moment of
+              your special day.</p>
+            <a href="#" class="btn">Know More <img src="assets/img/arrow.svg" alt=""> </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- About mobile-->
+  <section class="section about-us" id="about-mb">
+    <div class="ab-img" data-aos="zoom-out" data-aos-duration="3000">
+      <img src="assets/img/abt.png" alt="" class="img-fluid">
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-7" data-aos="fade-left" data-aos-duration="2000">
+          <div class="abt-info">
+            <h2><span style="color: #ad9551;">W</span>e specialize in offering wedding service</h2>
+            <span class="tg">Elevated wedding experiences</span>
+            <p>At Epic Events, we specialize in offering wedding services that go above and
+              beyond to make your special day truly unforgettable. From stunning decor to
+              personalized touches, we ensure every detail is taken care of so you can focus on
+              enjoying the moment. Our team of experts will work closely with you to bring
+              your dream wedding to life, creating a magical experience that reflects your
+              unique love story. Let us handle the details while you cherish every moment of
+              your special day. At Epic Events, we specialize in offering wedding services that
+              go above and beyond to make your special day truly unforgettable. From stunning
+              decor to personalized touches, we ensure every detail is taken care of so you can
+              focus on enjoying the moment. Our team of experts will work closely with you to
+              bring your dream wedding to life, creating a magical experience that reflects your
+              unique love story. Let us handle the details while you cherish every moment of
+              your special day.</p>
+            <a href="#" class="btn">Know More <img src="assets/img/arrow.svg" alt=""> </a>
+          </div>
+
+        </div>
+        <div class="col-md-5" data-aos="fade-right" data-aos-duration="2000">
+          <div class="abt-img">
+            <img src="assets/img/abt-1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- Services -->
+  <section class="section services" data-aos="fade-up" data-aos-duration="3000">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title"><span>O</span>Our Services</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="grid-container">
+                <div class="grid-item">
+                  <div class="service-box">
+                    <img src="assets/img/wedding.png" alt="" class="img-fluid">
+                    <div class="hr-line">
+                      <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                    </div>
+                    <div class="service-info">
+                      <h3>01</h3>
+                      <p>Weddings</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="service-box">
+                    <img src="assets/img/photography.png" alt="" class="img-fluid">
+                    <div class="hr-line">
+                      <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                    </div>
+                    <div class="service-info">
+                      <h3>02</h3>
+                      <p>Photography</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="service-box">
+                    <img src="assets/img/baby-shower.png" alt="" class="img-fluid">
+                    <div class="hr-line">
+                      <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                    </div>
+                    <div class="service-info">
+                      <h3>03</h3>
+                      <p>Baby Shower</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="grid-container">
+                <div class="grid-item">
+                  <div class="service-box">
+                    <img src="assets/img/1.png" alt="" class="img-fluid">
+                    <div class="hr-line">
+                      <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                    </div>
+                    <div class="service-info">
+                      <h3>01</h3>
+                      <p>Weddings</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="service-box">
+                    <img src="assets/img/1.png" alt="" class="img-fluid">
+                    <div class="hr-line">
+                      <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                    </div>
+                    <div class="service-info">
+                      <h3>02</h3>
+                      <p>Photography</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="service-box">
+                    <img src="assets/img/1.png" alt="" class="img-fluid">
+                    <div class="hr-line">
+                      <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                    </div>
+                    <div class="service-info">
+                      <h3>03</h3>
+                      <p>Baby Shower</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="prev">
+            <div class="se-icon prev-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <polygon
+                  points="452 256 378.82 236.39 378.82 248.5 60 248.5 60 263.5 378.82 263.5 378.82 275.61 452 256">
+                </polygon>
+              </svg>
+            </div>
+          </button>
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="next">
+            <div class="se-icon next-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <polygon
+                  points="452 256 378.82 236.39 378.82 248.5 60 248.5 60 263.5 378.82 263.5 378.82 275.61 452 256">
+                </polygon>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- Services mobile-->
+  <section class="section services" id="services-mb" data-aos="fade-up" data-aos-duration="3000">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title"><span>O</span>Our Services</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div id="carouselExampleTwo" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="service-box">
+                <img src="assets/img/wedding.png" alt="" class="img-fluid">
+                <div class="hr-line">
+                  <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                </div>
+                <div class="service-info">
+                  <h3>01</h3>
+                  <p>Weddings</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="service-box">
+                <img src="assets/img/photography.png" alt="" class="img-fluid">
+                <div class="hr-line">
+                  <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                </div>
+                <div class="service-info">
+                  <h3>02</h3>
+                  <p>Photography</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="service-box">
+                <img src="assets/img/baby-shower.png" alt="" class="img-fluid">
+                <div class="hr-line">
+                  <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                </div>
+                <div class="service-info">
+                  <h3>03</h3>
+                  <p>Baby Shower</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="service-box">
+                <img src="assets/img/baby-shower.png" alt="" class="img-fluid">
+                <div class="hr-line">
+                  <img src="assets/img/Line.png" alt="" class="img-fluid line">
+                </div>
+                <div class="service-info">
+                  <h3>03</h3>
+                  <p>Baby Shower</p>
+                </div>
+              </div>
+            </div>
+           
+
+          </div>
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#carouselExampleTwo"
+            data-bs-slide="prev">
+            <div class="se-icon prev-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <polygon
+                  points="452 256 378.82 236.39 378.82 248.5 60 248.5 60 263.5 378.82 263.5 378.82 275.61 452 256">
+                </polygon>
+              </svg>
+            </div>
+          </button>
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#carouselExampleTwo"
+            data-bs-slide="next">
+            <div class="se-icon next-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <polygon
+                  points="452 256 378.82 236.39 378.82 248.5 60 248.5 60 263.5 378.82 263.5 378.82 275.61 452 256">
+                </polygon>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- latest events -->
+  <section class="section latest-events" data-aos="fade-up" data-aos-duration="3000">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title"><span>S</span>See our latest events</h2>
+        </div>
+        <div class="col-md-4">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="tab" data-bs-target="#v-pills-home"
+              type="button" role="tab" aria-controls="v-pills-home" aria-selected="false" fdprocessedid="k9xbbo"
+              tabindex="-1">
+              Wedding
+            </button>
+            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="tab"
+              data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+              aria-selected="true" fdprocessedid="u8qnv9">Birthday Parties</button>
+            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="tab" data-bs-target="#v-pills-messages"
+              type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" tabindex="-1">Baby Shower
+            </button>
+            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="tab" data-bs-target="#v-pills-settings"
+              type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" tabindex="-1">Corporate
+              Events
+            </button>
+            <button class="nav-link" id="v-pills-settingss-tab" data-bs-toggle="tab" data-bs-target="#v-pills-settingss"
+              type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" tabindex="-1">Photography
+            </button>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+              <a href="/wedding.html#about-content"><img src="assets/img/latest-eve.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+              aria-labelledby="v-pills-profile-tab">
+              <a href="/corporate.html#corporate-event"><img src="assets/img/gallery-bg.jpg" class="card-img-top"
+                  alt="..."></a>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <a href="/cultural.html#cultural-event"><img src="assets/img/slider.png" class="card-img-top"
+                  alt="..."></a>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <a href="/parties.html#parties"><img src="assets/img/slider.png" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settingss" role="tabpanel" aria-labelledby="v-pills-settingss-tab">
+              <a href="/social.html#social-events"><img src="assets/img/slider.png" class="card-img-top" alt="..."></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- features -->
+  <section class="section features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
+          <div class="feature-box left">
+            <ul>
+              <li>BEST ORGANIZERS</li>
+              <li>EXCLUSIVE SERVICES</li>
+              <li>CO-OPERATIVE STAFF</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
+          <div class="feature-box right">
+            <ul>
+              <li>PROFESSIONAL</li>
+              <li>TRUSTED PARTNERS</li>
+              <li>VENDOR COORDINATION</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- testimonials -->
+  <section class="section testimonials" data-aos="zoom-in" data-aos-duration="3000">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="testi-info">
+            <h2>Kind Words</h2>
+          </div>
+          <div class="quote">
+            <img src="assets/img/quote.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div id="carouselExampleOne" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testi-inner">
+                <img src="assets/img/testi1.png" alt="" class="img-fluid">
+                <p>Tilde brooklyn roof party scenester kale chips disrupt retro bicycle rights
+                  pinterest godard. Vaporware subway tile church-key literally whatever
+                  chillwave flannel, wolf af man braid woke forage. Meditation seitan enamel pin
+                  gastropub. Vaporware subway tile church-key literally whatever chillwave
+                  flannel, wolf af man braid woke forage.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testi-inner">
+                <img src="assets/img/testi1.png" alt="" class="img-fluid">
+                <p>Tilde brooklyn roof party scenester kale chips disrupt retro bicycle rights
+                  pinterest godard. Vaporware subway tile church-key literally whatever
+                  chillwave flannel, wolf af man braid woke forage. Meditation seitan enamel pin
+                  gastropub. Vaporware subway tile church-key literally whatever chillwave
+                  flannel, wolf af man braid woke forage.</p>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#carouselExampleOne"
+            data-bs-slide="prev">
+            <div class="se-icon prev-icon">
+              <img src="assets/img/Arrow 6.png" alt="" class="img-fluid">
+            </div>
+          </button>
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#carouselExampleOne"
+            data-bs-slide="next">
+            <div class="se-icon next-icon">
+              <img src="assets/img/Arrow 5.png" alt="" class="img-fluid">
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="testi-logo">
+        <img src="assets/img/logo.png" alt="" class="img-fluid">
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <!-- cta -->
+  <h2 class="section-title cta"><span>B</span>Booking & Enquiries</h2>
+  <section class="section cta" data-aos="zoom-out" data-aos-duration="3000">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-4">
+            <input type="text" class="form-control" id="name" placeholder="First Name" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-4">
+            <input type="text" class="form-control" id="name" placeholder="Last Name" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-4">
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <input type="number" class="form-control" id="number" placeholder="Phone Number" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mb-4">
+            <input type="text" class="form-control" id="address" placeholder="Address">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="submit">
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- end -->
+
+  <!-- go to top -->
+  <h2 class="gtp" onclick="scrollToTop()">Go to top <span><img src="assets/img/arrow-up.png" alt=""
+        class="img-fluid"></span></h2>
+  <!-- end -->
+
+  <!-- footer -->
+  <footer class="section">
+    <div class="container">
+      <div class="row" data-aos="fade-up" data-aos-duration="3000">
+        <div class="col-md-5">
+          <h3>Laxmi Complex, Belgaum Karwar Rd, Deshpande
+            Nagar, Karnataka 580029, India</h3>
+        </div>
+        <div class="col-md-2">
+          <img src="assets/img/logo.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+          <h3>Unforgettable Events Experiences with Epic
+            Events</h3>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-up" data-aos-duration="3000">
+        <div class="social-info">
+          <a href="#">
+            <img src="assets/img/instagram.png" alt="" class="img-fluid">
+          </a>
+          <a href="#">
+            <img src="assets/img/email.png" alt="" class="img-fluid">
+          </a>
+          <a href="#">
+            <img src="assets/img/whatsapp.png" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="ftr-info">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Testimonial</a></li>
+            </ul>
+            <p>Copyright Epic Events @2024 | All Rights Reserved Developed by <a href="#"><strong>SYNC
+                  SOLUTIONS</strong></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- scroll to top -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // for smooth scrolling
+      });
+    }
+  </script>
+  <!-- end -->
+
+  <!-- animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- end -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- <i class="bi bi-grid-3x3-gap-fill"></i> -->
